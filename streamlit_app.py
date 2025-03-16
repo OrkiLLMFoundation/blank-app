@@ -3,8 +3,8 @@ from transformers import AutoModelForCausalLM, AutoTokenizer
 
 # Zamień "username/model-name" na nazwę Twojego modelu
 model_name = "gorni123/orkibotllm"
-tokenizer = AutoTokenizer.from_pretrained(model_name)
-model = AutoModelForCausalLM.from_pretrained(model_name)
+tokenizer = AutoTokenizer.from_pretrained(gpt2)
+model = AutoModelForCausalLM.from_pretrained(gpt2)
 
 def chatbot_response(user_input):
     # Tokenizuj wejście
