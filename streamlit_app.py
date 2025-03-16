@@ -2,7 +2,7 @@ import gradio as gr
 from transformers import AutoModelForCausalLM, AutoTokenizer
 
 # Zamień "username/model-name" na nazwę Twojego modelu
-model_name = "username/model-name"
+model_name = "gorni123/orkibotllm"
 tokenizer = AutoTokenizer.from_pretrained(model_name)
 model = AutoModelForCausalLM.from_pretrained(model_name)
 
